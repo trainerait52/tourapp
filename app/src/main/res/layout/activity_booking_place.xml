@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloud"
+    tools:context=".BookingPlaceActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Details"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="username"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#7C7575"
+        android:id="@+id/uname"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColorHint="#7C7575"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:hint="no of days booking "
+        android:layout_marginTop="10dp"
+        android:id="@+id/days"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textColorHint="#7C7575"
+        android:layout_gravity="center_horizontal"
+        android:hint="no of rooms booking "
+        android:layout_marginTop="10dp"
+        android:id="@+id/rooms"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColorHint="#7C7575"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:hint="Total number of members "
+        android:layout_marginTop="10dp"
+        android:id="@+id/members"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="current date of booking"
+        android:textColorHint="#7C7575"
+        android:inputType="date"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/date"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:inputType="time"
+        android:layout_height="50dp"
+        android:hint="current time of booking"
+        android:textColorHint="#7C7575"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/time"/>
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Confirm Amount"
+        android:textColorHint="#7C7575"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:id="@+id/amount"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="booking confirmed"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:background="@drawable/bookshape"
+            android:id="@+id/book"
+            android:textColor="#FD068A"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="booking cancel"
+        android:textSize="20dp"
+        android:id="@+id/cancel1"
+        android:background="@drawable/custom_editext"
+        android:textColor="#FD068A"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#D39E9E"
+        />
+</LinearLayout>

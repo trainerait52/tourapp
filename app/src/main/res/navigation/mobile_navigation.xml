@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.traveldux.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_shopping"
+        android:name="com.example.traveldux.ui.shopping.ShoppingFragment"
+        android:label="@string/shopping"
+        tools:layout="@layout/fragment_shopping" />
+
+    <fragment
+        android:id="@+id/nav_busstation"
+        android:name="com.example.traveldux.ui.home.bus.BusStationFragment"
+        android:label="@string/busstation"
+        tools:layout="@layout/fragment_busstation" />
+    <fragment
+        android:id="@+id/nav_railwayStation"
+        android:name="com.example.traveldux.RailwayStationFragment"
+        android:label="@string/railwaystation"
+        tools:layout="@layout/fragment_railway_station" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.traveldux.MapFragment"
+        android:label="@string/map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_cab"
+        android:name="com.example.traveldux.CabFragment"
+        android:label="@string/cab"
+        tools:layout="@layout/fragment_cab" />
+    <fragment
+        android:id="@+id/nav_resort"
+        android:name="com.example.traveldux.ResortFragment"
+        android:label="@string/resort"
+        tools:layout="@layout/fragment_resort" />
+    <fragment
+        android:id="@+id/nav_helpline"
+        android:name="com.example.traveldux.HelplineFragment"
+        android:label="@string/helpline"
+        tools:layout="@layout/fragment_helpline" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.traveldux.FeedbackFragment"
+        android:label="@string/feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+
+
+</navigation>

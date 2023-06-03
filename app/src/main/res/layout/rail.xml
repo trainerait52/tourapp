@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp">
+
+
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="245dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/rail_img"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            android:src="@drawable/aathirapilly"
+            app:riv_corner_radius="14dp" />
+
+        <TextView
+            android:id="@+id/rail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rail name"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="70dp"-->
+        <!--                android:layout_height="30dp"-->
+        <!--                android:layout_marginLeft="5dp"-->
+        <!--                android:src="@drawable/rating" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/bus_rating"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="3dp"-->
+        <!--                android:text="5.0" />-->
+
+        <!--        </LinearLayout>-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/bus_address"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="address"-->
+        <!--            android:textColor="#A6A4A4"-->
+        <!--            android:textSize="10dp"-->
+        <!--            android:textStyle="bold" />-->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/shop"
+            android:title="@string/Shopping" />
+        <item
+            android:id="@+id/nav_busstation"
+            android:icon="@drawable/bus"
+            android:title="@string/BusStation" />
+        <item
+            android:id="@+id/nav_railwayStation"
+            android:icon="@drawable/rail"
+            android:title="@string/RailwayStation" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="@string/Map" />
+        <item
+            android:id="@+id/nav_cab"
+            android:icon="@drawable/cab"
+            android:title="@string/Cab" />
+        <item
+            android:id="@+id/nav_resort"
+            android:icon="@drawable/hotel"
+            android:title="@string/Resort" />
+        <item
+            android:id="@+id/nav_helpline"
+            android:icon="@drawable/help"
+            android:title="@string/Helpline" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feed"
+            android:title="@string/feedback" />
+
+    </group>
+</menu>

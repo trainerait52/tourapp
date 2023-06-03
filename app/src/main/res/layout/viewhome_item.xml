@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/view_img"
+        android:layout_width="255dp"
+        android:layout_height="185dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/aathirapilly"
+        app:riv_corner_radius="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/view_name"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gg"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:text="here is the map to view"/>
+        <!--        <ImageView-->
+        <!--            android:id="@+id/loc"-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="18dp"-->
+        <!--            android:src="@drawable/location" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/map"-->
+        <!--            android:layout_width="25dp"-->
+        <!--            android:layout_height="18dp"-->
+        <!--            android:src="@drawable/location" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/google"-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="18dp"-->
+        <!--            android:src="@drawable/location" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/googlelink"-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="18dp"-->
+        <!--            android:src="@drawable/location" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/link"-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="18dp"-->
+        <!--            android:src="@drawable/location" />-->
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_marginTop="20dp"
+        android:textColor="#111212"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:textColor="#909191"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:id="@+id/view_description"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="20dp"
+        android:textColor="#090909"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textColor="#878888"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/view_address"
+        android:textStyle="bold" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/check"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="start booking your trip now"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>

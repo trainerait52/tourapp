@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/search_box"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_margin="8dp"-->
+            <!--                android:drawableLeft="@drawable/search"-->
+            <!--                android:drawablePadding="5dp"-->
+            <!--                android:elevation="3dp"-->
+            <!--                android:hint="search your favorite one"-->
+            <!--                android:padding="13dp" />-->
+
+            <!--                        <androidx.recyclerview.widget.RecyclerView-->
+            <!--                            android:id="@+id/search_rec"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:layout_marginLeft="10dp"-->
+            <!--                            android:layout_marginRight="10dp" />-->
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="2">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:text="Popular Places"-->
+            <!--                    android:textSize="13dp"-->
+            <!--                    android:textStyle="bold" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/view_all_popular"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginRight="7dp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:gravity="end"-->
+            <!--                    android:text="View All"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="16dp" />-->
+
+
+            <!--            </LinearLayout>-->
+            <!--            <androidx.appcompat.widget.SearchView-->
+            <!--                android:id="@+id/searchview"-->
+            <!--                android:layout_width="400dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_margin="8dp"-->
+            <!--                app:iconifiedByDefault="false"-->
+            <!--                android:background="@drawable/search_bg"-->
+            <!--                app:queryHint="search here" />-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pop_rec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp" />
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="2">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:text="Popular Restaurants"-->
+            <!--                    android:textSize="13dp"-->
+            <!--                    android:textStyle="bold" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/view_all_Explore"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginRight="7dp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:gravity="end"-->
+            <!--                    android:text="View All"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="16dp" />-->
+
+
+            <!--            </LinearLayout>-->
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/res_rec"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_margin="5dp" />-->
+
+            <!--            -->
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="2">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:text=" Popular Events"-->
+            <!--                    android:textSize="13dp"-->
+            <!--                    android:textStyle="bold" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/view_all_recommended"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginRight="7dp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:gravity="end"-->
+            <!--                    android:text="View All"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="16dp" />-->
+
+
+            <!--            </LinearLayout>-->
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/events_rec"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_margin="5dp" />-->
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

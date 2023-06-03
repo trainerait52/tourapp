@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/crname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/crnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="num"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/crreviewsub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reviewsubmit"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/crtxtreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="txtreview"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

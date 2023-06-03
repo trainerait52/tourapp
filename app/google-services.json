@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877940110591",
+    "project_id": "traveldux-4f659",
+    "storage_bucket": "traveldux-4f659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877940110591:android:b20a2929a2b091586d88ca",
+        "android_client_info": {
+          "package_name": "com.example.traveldux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877940110591-l1hfqgigo3s2tcjngpb0ia1n3qu7smbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApt_cl4QZ59LTDaxeAFjjbJAS08Q-D1AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877940110591-l1hfqgigo3s2tcjngpb0ia1n3qu7smbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
